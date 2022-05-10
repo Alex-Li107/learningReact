@@ -10,7 +10,11 @@ function Navbar() {
             <Link to="/" className="Home-logo">
                 Apex Legends
                 <img id = "NavBarHomeLogo" src = {ApexLogo} />
+                <i className='ApexLogo'/>
             </Link>
+            <div className='menu-icon'>
+              
+            </div>
         </div>
     </nav>
   )
